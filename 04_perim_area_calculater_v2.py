@@ -32,7 +32,7 @@ print("**** Area Perimeter Calculator ****")
 
 keep_going = ""
 while keep_going == "":
-
+    # get width and height and check they are numbers that are more than zero
     width = num_check("Width: ")
     height = num_check("Height: ")
 
